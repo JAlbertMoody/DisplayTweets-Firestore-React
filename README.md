@@ -1,4 +1,4 @@
-# Tweets-Firestore-React
+# React-Tweets-Firestore
 A repo for rendering sorted tweets in the browser from a Firestore collection with ReactJS.
 
 LIVE DEMO: https://dadsaysjokes.netlify.app/  
