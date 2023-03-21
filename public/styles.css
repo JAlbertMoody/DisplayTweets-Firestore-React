@@ -1,0 +1,325 @@
+* {
+    box-sizing: border-box;
+} 
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #1E202Bff;
+    background-color: white;
+    /* max-height: 100vh; */
+}
+
+
+main {
+    min-height: calc(100vh - 132px);
+    width: 1024px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    background-color: white;
+    border-left: 1px solid rgb(209, 209, 209);
+    border-right: 1px solid rgb(209, 209, 209);
+}
+
+
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    background-color: #1E202Bff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.Header-Left {
+    display: flex;
+}
+
+.Header-Text{
+    font-size: 2rem;
+    font-weight: Bold;
+    color: whitesmoke;
+}
+
+.Header-SubText {
+    font-size: 1rem;
+    color: rgb(212, 212, 212);
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header-Right {
+    display: flex;
+}
+
+.Header-Right > p {
+    color: whitesmoke;
+    margin-right: 5px;
+}
+
+.Header-Icon {
+    padding: 5px;
+    width: 48px;
+    height: 40px;
+    object-fit: contain;
+    margin-top: 6px;
+}
+
+.SubHeader {
+    margin-top: 72px;
+    width: 100vw;
+    min-height: 40px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    flex-wrap: wrap;
+}
+
+.Footer {
+    background-color: #1E202Bff;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    
+}
+
+.Footer-Text {
+    font-size: 1rem;
+    font-weight: italic;
+    color: whitesmoke;
+}
+
+.Tweet {
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    padding: 0px;
+    /* border: 3px solid rgb(175, 175, 175); */
+    display: flex;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.Tweet-Meta {
+    height: 100%;
+    flex: 0 0 246px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.Tweet-Text {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    border-left: 2px solid rgb(112, 112, 112);
+}
+
+.Tweet-Text > p {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.Tweet-Meta-Date {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.Tweet-Meta-Date > p {
+    margin: 2px;
+}
+
+.Tweet-Meta-Stats {
+    width: 100%;
+    display: Flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.Tweet-Meta-Stats > * {
+    margin: 5px;
+}
+
+.Tweet-Meta-Stats > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Tweet-Meta-Stats > div > p {
+    margin: 2px;
+}
+
+.Icon {
+    width: 24px;
+    height: 24px;
+    margin: 2px;
+    object-fit: cover;
+}
+
+.Nav {
+    width: 500px;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Nav-Text {
+    width: 100px;
+    height: 100%;
+    margin: 0px;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 1px solid black;
+}
+
+.Nav-Options {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.Nav-Options > a {
+    width: 100px;
+    height: 100%;
+    outline: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.Nav-Options > a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Nav-Options > a.active {
+    text-decoration: none;
+    background-color: rgb(120, 148, 170);
+}
+
+.Nav-Options > a.active:hover {
+    font-weight: normal;
+}
+
+.Button-Container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Button {
+    width: 120px;
+    height: 30px;
+    outline: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 0px;
+    outline: none;
+    appearance: none;
+}
+
+.Page-Title {
+    margin-bottom: 0px;
+}
+
+.LoadMore {
+    margin: 20px auto;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: aliceblue;
+}
+
+.LoadMore:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (min-width: 767px) and (max-width: 1050px) {
+    main {
+        width: 90vw;
+    }
+}
+
+@media (max-width: 766px){
+    main {
+        width: 90vw;
+    }
+
+    .Header {
+        width: 100vw;
+        flex-direction: column;
+        height: 100px;
+    }
+
+    .SubHeader {
+        margin-top: 100px;
+        padding: 20px;
+    }
+
+    .Nav {
+        width: 90vw;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+
+    .Nav > * {
+        margin-top: 5px;
+    }
+
+    .Tweet {
+        flex-direction: column;
+        height: 300px;
+    }
+
+    .Tweet-Meta {
+        flex: 0 0 100px;
+    }
+    
+    .Tweet-Text {
+        border-left: none;
+        border-top: 2px solid rgb(112, 112, 112);
+    }
+
+}
+
