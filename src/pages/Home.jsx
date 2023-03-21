@@ -2,7 +2,7 @@ import useGetTweets from "../useGetTweets"
 import TweetList from "../TweetList";
 
 export function Home(){
-    // All logis managed by the custom hook useGetTweets
+    // All logic managed by the custom hook useGetTweets
     // "created_at" is the prop passed to the hook as the filter
     const {tweets, 
         hasMore, 
