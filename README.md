@@ -1,5 +1,5 @@
-#Tweets-Firestore-React
-A repo for rendering tweets in the browser from a Firestore collection with ReactJS.
+# Tweets-Firestore-React
+A repo for rendering sorted tweets in the browser from a Firestore collection with ReactJS.
 
 LIVE DEMO: https://dadsaysjokes.netlify.app/  
 tweets from: https://twitter.com/baddadjokes
