@@ -1,4 +1,4 @@
-# DisplayTweetsFirestore
+# DisplayTweets-Firestore-React
 A demo for rendering tweets in the browser from a Firestore collection with ReactJS.
 
 LIVE DEMO: https://dadsaysjokes.netlify.app/  
